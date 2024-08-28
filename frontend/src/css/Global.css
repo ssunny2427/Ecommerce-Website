@@ -1,0 +1,65 @@
+/* Global Styles */
+body {
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  /* Keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-10px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes inputFocus {
+    from {
+      box-shadow: none;
+    }
+    to {
+      box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.5);
+    }
+  }
+  
+  @keyframes buttonHover {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.05);
+    }
+  }
+  
+  
+    
+ 
+  
+  
+  .partt {
+    background: linear-gradient(135deg, white, #E2DFD2, #FFDEAD);
+  }
+  
+  .pooo {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+  }
+  
+  .textt1{
+    text-decoration: none;
+  }

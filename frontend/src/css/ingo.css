@@ -1,0 +1,59 @@
+.class1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height to center vertically */
+    margin: 0; /* Remove any default margins */
+}
+
+.class2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Full width of the container */
+}
+
+.class3 {
+    border: 1px solid #ccc; /* Border for the box */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 8px; /* Rounded corners */
+    background-color: cream; /* Background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%;
+    max-width: 400px; /* Optional: Limit the maximum width */
+}
+
+.class4 {
+    margin-bottom: 10px; /* Space between label and input */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.class5 {
+    padding: 10px; /* Padding inside input fields */
+    margin-bottom: 15px; /* Space between input fields */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 4px; /* Rounded corners for input fields */
+    width: 100%; /* Full width for input fields */
+}
+
+.class6 {
+    padding: 10px 20px; /* Padding inside button */
+    border: none;
+    border-radius: 4px; /* Rounded corners for button */
+    background-color: black; /* Background color */
+    color: #fff; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.class6:hover {
+    background-color: gray; /* Darker background on hover */
+}
+
+.class7 {
+    margin-top: 10px; /* Space above message */
+    color: #d9534f; /* Color for error message */
+}
